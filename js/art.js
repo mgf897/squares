@@ -21,8 +21,8 @@ var rows = 8;//7;
 
 function setup() {
 	createCanvas(canvas_x, canvas_y);
-	noLoop(); // prevents draw being executed more than once
-	//frameRate(1);
+	//noLoop(); // prevents draw being executed more than once
+	frameRate(0.5);
 }
 
 function draw() {
